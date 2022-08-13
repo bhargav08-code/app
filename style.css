@@ -1,0 +1,349 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container-fluid {
+  padding-left: 5.75rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+.navbar-nav {
+  padding-left: 65px;
+}
+.d-flex {
+  padding-right: 175px;
+}
+.nav-item.nav-item {
+  padding-right: 2rem;
+}
+.cover h1 {
+  font-size: 6.429rem;
+  letter-spacing: 1.25px;
+
+  font-weight: 500;
+
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 0;
+}
+.cover h3 {
+  font-size: 5rem;
+  letter-spacing: 1.25px;
+  color: #19aa8d;
+  font-weight: 400;
+
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 110px;
+}
+.product-card {
+  flex-basis: 225px;
+  box-shadow: 1px 1px 8px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+.product-card > h4 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.product-card > img {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+.price > p {
+  margin-block: 0px;
+  font-size: 16px;
+}
+h4 {
+  color: #000000;
+  cursor: pointer;
+}
+.fresh {
+  position: relative;
+  bottom: 2rem;
+  font-weight: 200;
+}
+.btn-outline-dark:hover {
+  background-color: #007185;
+}
+i:hover {
+  color: #19aa8d;
+}
+.like {
+  position: relative;
+  left: 2rem;
+}
+.wish-icon .fa-heart {
+  color: #ff6161;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.turn :hover {
+  color: red;
+}
+/* about css */
+
+.accordion .card {
+  background: none;
+  border: none;
+}
+.accordion .card .card-header {
+  background: none;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.accordion .card-header h2 span {
+  float: left;
+  margin-top: 10px;
+}
+.accordion .card-header .btn {
+  color: #2f2f31;
+  font-size: 1.04rem;
+  text-align: left;
+  position: relative;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+.accordion .card-header i {
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+.accordion .card-header .btn:hover {
+  color: #19aa8d;
+}
+.accordion .card-body {
+  color: #324353;
+  padding: 0.5rem 3rem;
+}
+.page-title {
+  margin: 3rem 0 3rem 1rem;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  text-align: center;
+}
+/* .page-title::after {
+  content: "";
+  width: 80px;
+  position: absolute;
+  height: 3px;
+  border-radius: 1px;
+  background: #73bb2b;
+  left: 0;
+  bottom: -15px;
+} */
+.accordion .highlight .btn {
+  color: #74bd30;
+}
+.accordion .highlight i {
+  transform: rotate(180deg);
+}
+@media screen and (max-width: 400px) {
+  .container-fluid {
+    padding-left: 0.75rem;
+  }
+  .navbar-nav {
+    padding-left: 0px;
+  }
+  .formm {
+    display: none;
+  }
+  .cover h3 {
+    font-size: 2rem !important;
+  }
+  .products {
+    gap: 45px;
+  }
+}
+/* .big {
+  color: red;
+} */
+
+/* car css */
+h2 {
+  color: #000;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin: 30px 0 60px;
+}
+/* h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 4px;
+  border-radius: 1px;
+  background: #19aa8d;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+} */
+.carousel {
+  margin: 50px auto;
+  padding: 0 70px;
+}
+.carousel .item {
+  color: #747d89;
+  min-height: 325px;
+  text-align: center;
+  overflow: hidden;
+}
+.carousel .thumb-wrapper {
+  padding: 25px 15px;
+  background: #fff;
+  border-radius: 6px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.carousel .item .img-box {
+  height: 120px;
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+}
+.carousel .item img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.carousel .item h4 {
+  font-size: 18px;
+}
+.carousel .item h4,
+.carousel .item p,
+.carousel .item ul {
+  margin-bottom: 5px;
+}
+.carousel .thumb-content .btn {
+  color: #19aa8d;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: none;
+  border: 1px solid #19aa8d;
+  padding: 6px 14px;
+  margin-top: 5px;
+  line-height: 16px;
+  border-radius: 20px;
+}
+.carousel .thumb-content .btn:hover,
+.carousel .thumb-content .btn:focus {
+  color: #fff;
+  background: #19aa8d;
+  box-shadow: none;
+}
+.carousel .thumb-content .btn i {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.carousel .item-price {
+  font-size: 13px;
+  padding: 2px 0;
+}
+.carousel .item-price strike {
+  opacity: 0.7;
+  margin-right: 5px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  height: 44px;
+  width: 40px;
+  background: #7ac400;
+  margin: auto 0;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: #78bf00;
+  opacity: 1;
+}
+.carousel-control-prev i,
+.carousel-control-next i {
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  margin: -19px 0 0 0;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-shadow: none;
+  font-weight: bold;
+}
+.carousel-control-prev i {
+  margin-left: -2px;
+}
+.carousel-control-next i {
+  margin-right: -4px;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+.carousel-indicators li,
+.carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-radius: 50%;
+  border: none;
+}
+.carousel-indicators li {
+  background: rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {
+  background: rgba(0, 0, 0, 0.6);
+}
+.carousel .wish-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 99;
+  cursor: pointer;
+  font-size: 16px;
+  color: #abb0b8;
+}
+.carousel .wish-icon .fa-heart {
+  color: #ff6161;
+}
+.star-rating li {
+  padding: 0;
+}
+.star-rating i {
+  font-size: 14px;
+  color: #ffc000;
+}

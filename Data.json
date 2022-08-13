@@ -1,0 +1,39 @@
+{
+  "Data": [
+    {
+      "userId": 1,
+      "product": "Mahindra Xuv500 (2016)",
+      "img": "image1.webp",
+      "price": 1550000,
+      "city": "Nagpur"
+    },
+    {
+      "userId": 2,
+      "product": "Maruti Suzuki Ciaz (2014)",
+      "img": "image2.webp",
+      "price": 400000,
+      "city": "Nagpur"
+    },
+    {
+      "userId": 3,
+      "product": "Hyundai Creta (2020)",
+      "img": "image3.webp",
+      "price": 1875000,
+      "city": "Nagpur"
+    },
+    {
+      "userId": 4,
+      "product": "Bmw 3 Series (2014)",
+      "img": "image.webp",
+      "price": 1475000,
+      "city": "Nagpur"
+    },
+    {
+      "userId": 5,
+      "product": "Bmw 3 Series (2014)",
+      "img": "image.webp",
+      "price": 1475000,
+      "city": "Nagpur"
+    }
+  ]
+}
